@@ -1,1 +1,59 @@
+# 🌐 Cisco Packet Tracer - DHCP & Static IP Lab
+
+A practical networking lab demonstrating dynamic IP allocation via DHCP alongside static IP configuration for network peripherals (Printer) to prevent IP conflicts.
+
+---
+
+## 📁 Repository Structure
+
+* **`assets/`** - Contains all topology diagrams, device configuration screenshots, and ping test results.
+* **`labs/`** - Contains the executable Packet Tracer file (`DHCP2.pkt`).
+
+---
+
+## 🏗️ Network Topology
+
+![Network Topology](assets/topology.png)
+
+* **Sv-DHCP:** Central DHCP Server
+* **Switch0:** Cisco 2960 Switch connecting all network devices
+* **Clients:** 7 PCs (`PC0` to `PC6`) set to DHCP
+* **Printer1:** Assigned a Static IP (`192.168.50.7`)
+
+---
+
+## ⚙️ Configuration Details
+
+### 1. DHCP Server Settings (`Sv-DHCP`)
+- **Pool Name:** `HR`
+- **Default Gateway:** `192.168.50.1`
+- **Start IP Address:** `192.168.50.20` (Excluding `.1` to `.19` for static assignments)
+
+![DHCP Pool Setup](assets/dhcp-config.png)
+
+---
+
+### 2. Static IP Setup (Printer)
+- **IPv4 Address:** `192.168.50.7`
+- **Subnet Mask:** `255.255.255.0`
+
+![Printer Configuration](assets/printer-IP.png)
+
+---
+
+### 3. Client IP Lease Verification
+- `PC0` successfully leased `192.168.50.20`
+- `PC6` successfully leased `192.168.50.26`
+
+![PC Config](assets/pc0-dhcp.png)
+
+---
+
+## ✅ Connectivity Verification (Ping Test)
+
+Verified end-to-end communication from `PC4` to both client devices and the Static Printer with **0% packet loss**:
+
+![Ping Test](assets/ping-printer.png)
+
+
 

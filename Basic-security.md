@@ -63,7 +63,7 @@ After returning to user mode, the router asks for a password before allowing acc
 
 ## Step 4: Configure Security on the Switch (SW1)
 
-![Step 4](assets/step_4sw.png)
+![Step 4](assets/step4_sw.png)
 
 ```
 Switch> en

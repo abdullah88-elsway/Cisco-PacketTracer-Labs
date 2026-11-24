@@ -14,7 +14,7 @@ A short lab on securing access to Privileged EXEC mode on a Cisco router and swi
 | Switch1 (SW1) | Cisco 2960-24TT Switch |
 | Laptop1, Laptop2 | Laptop-PT |
 
-![Topology](assests/topology.png)
+![Topology](assets/topology.png)
 
 ---
 ⚙️Configuration Details

@@ -14,13 +14,13 @@ A short lab on securing access to Privileged EXEC mode on a Cisco router and swi
 | Switch1 (SW1) | Cisco 2960-24TT Switch |
 | Laptop1, Laptop2 | Laptop-PT |
 
-![Topology](images/topology.png)
+![Topology](assests/topology.png)
 
 ---
 ⚙️Configuration Details
 ## Step 1: Enable Password Encryption on R1
 
-![Step 1](images/step1.png)
+![Step 1](assets/step1.png)
 
 ```
 R1(config)# service password-encryption
@@ -34,7 +34,7 @@ R1# show running-config
 
 ## Step 2: Configure Enable Secret on R1
 
-![Step 2](images/step2.png)
+![Step 2](assets/step2.png)
 
 ```
 R1# config terminal
@@ -49,7 +49,7 @@ The running configuration shows the secret stored as a hash (`enable secret 5 ..
 
 ## Step 3: Test Privileged Access on R1
 
-![Step 3](images/step3.png)
+![Step 3](assets/step3.png)
 
 ```
 R1# disable
@@ -63,7 +63,7 @@ After returning to user mode, the router asks for a password before allowing acc
 
 ## Step 4: Configure Security on the Switch (SW1)
 
-![Step 4](images/step4_sw.png)
+![Step 4](assets/step4_sw.png)
 
 ```
 Switch> en

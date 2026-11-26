@@ -1,6 +1,6 @@
-🌐 # Lab: Basic Device Security (Cisco Packet Tracer)
+ # Lab: Basic Device Security (Cisco Packet Tracer)
 
-📁## Overview
+## Overview
 
 A short lab on securing access to Privileged EXEC mode on a Cisco router and switch using hostnames, password encryption, and enable secrets.
 

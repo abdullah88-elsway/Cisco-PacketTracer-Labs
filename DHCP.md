@@ -1,10 +1,10 @@
-# 🌐 Cisco Packet Tracer - DHCP & Static IP Lab
+#  Cisco Packet Tracer - DHCP & Static IP Lab
 
 A practical networking lab demonstrating dynamic IP allocation via DHCP alongside static IP configuration for network peripherals (Printer) to prevent IP conflicts.
 
 ---
 
-## 📁 Repository Structure
+##  Repository Structure
 
 * **`assets/`** - Contains network topology diagrams, configuration screenshots, and ping verification tests.
 * **`labs/`** - Contains the executable Packet Tracer file (`DHCP2.pkt`).

@@ -13,7 +13,7 @@ A practical networking lab demonstrating dynamic IP allocation via DHCP alongsid
 
 ##  Network Topology
 
-![Network Topology](assets/topology.png)
+![Network Topology](assets/DHCP-topology.png)
 
 * **Sv-DHCP:** Central DHCP Server
 * **Switch0:** Cisco 2960 Switch connecting all network devices
